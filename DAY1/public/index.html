@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Farms</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="menu">
+        <nav>
+            <div class ="logo">
+                <img src="./assets/logo.png" alt="" height="60%" margin="10px">
+            </div>
+            <div class="search_section">
+                <input type="text" id="searchbox" placeholder="SEARCH">
+                <i class="fa fa-search" aria-hidden="true" id="search-logo"></i>
+            </div>
+            <div class="menu_section">
+                <ul class="options">
+                    <li><a href="#menu">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="image_section">
+            <div class="image_container">
+                <img src="./assets/slider1.jpg" alt="">
+                <img src="./assets/slider2.jpg" alt="">
+                <img src="./assets/slider3.jpg" alt="">
+                <img src="./assets/slider4.jpg" alt="">
+            </div>
+        </section>
+        <section class="products_section" id="products">
+         <div class="product_card">
+            <img src="./assets/product1.jpg" alt="">
+            <div class="product_card_details">
+                <b>NATURAL RICE - 5Kg | Diet & Diabetic Friendly</b><br><br>
+                <span>An ideal kitchen in India never stops cooking. For those who love rice in their daily meals, Our Natually grown rice is the perfect rice for this all-rounder homemaker. </span>
+                <br>
+                <br>
+                <span>5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹675 (₹135/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product2.jpg" alt="">
+            <div class="product_card_details">
+                <b>Wheat Flour (2 kg) | High Dietary Fiber | Easy Digestion</b><br><br>
+                <span>Ideal for Sugar Management: Unlike regular Flour, nutrients from emmer wheat whole flour get slowly & efficiently absorbed by body. This may help prevent sudden insulin spikes and promote sugar management </span>
+                <br>
+                <br>
+                <span>4.5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹449 (₹224/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product3.jpg" alt="">
+            <div class="product_card_details">
+                <b>Turmeric Powder With Natural Oils, 200g, Haldi Powder</b><br><br>
+                <span>Highly Aromatic Turmeric: Enjoy the rich taste of Tata Sampann Turmeric Powder in all your favourite dishes, Every pack carries the promise of an active ingredient called curcumin</span>
+                <br>
+                <br>
+                <span>5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹72 (₹350/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product4.jpg" alt="">
+            <div class="product_card_details">
+                <b>Whole Cashews - 500g | Gluten Free & Plant Based Protein</b><br><br>
+                <span>Deliciously Nutty Flavour: Enjoy the rich, nutty taste of Vedaka’s whole cashews, known for their firm texture and satisfying crunch. Great Quality: These cashews are carefully selected to be regular-sized, non-damaged, and non-split, yielding approximately 320 pieces per pound.</span>
+                <br>
+                <br>
+                <span>5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹500 (₹100/100g)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product5.jpg" alt="">
+            <div class="product_card_details">
+                <b>Fresh Mango, 1 kg</b><br><br>
+                <span>Irresistibly sweet, juicy and delicious. Skin is yellow with a tinge of green on the outside. The pulp is bright orange in colour. It is an early season variety. It is the queen of mangoes.</span>
+                <br>
+                <br>
+                <span>5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹200 (200/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product6.jpg" alt="">
+            <div class="product_card_details">
+                <b>Carrot - Orange (Loose), 1 kg</b><br><br>
+                <span>A popular sweet-tasting root vegetable, carrots are narrow and cone-shaped. They have thick, fleshy, deeply coloured roots which grow underground and feathery green leaves that emerge above the ground. flavour and richness of the finest crispy and juicy carrots that are locally grown and the best of the region.</span>
+                <br>
+                <br>
+                <span>5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹70 (₹70/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product7.jpg" alt="">
+            <div class="product_card_details">
+                <b> Orange - Imported (Loose), 4 pcs (Approx. 600 g - 700 g)</b><br><br>
+                <span>Savour the zesty essence of imported Oranges, bursting with juicy sweetness and vibrant citrus flavour. Each fruit is meticulously selected for its freshness and quality, ensuring a delightful addition to your culinary creations.</span>
+                <br>
+                <br>
+                <span>4.5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-haalf-0" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹157 (₹40/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         <div class="product_card">
+            <img src="./assets/product8.jpg" alt="">
+            <div class="product_card_details">
+                <b>Pomegranate - Regular, 1 kg (5-7 pcs per kg)</b><br><br>
+                <span>With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds.</span>
+                <br>
+                <br>
+                <span>4.5</span>
+                <span id="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </span>
+                <span id="price">PRICE: ₹300 (300/kg)</span>
+                <br><br>
+                <button id="addcartbtn">+ Add</button>
+            </div>
+         </div>
+         </div>
+        </section>
+        <section class="about_section" id="about">
+            <div class="about_image">
+                <img src="./assets/about.jpeg" alt="" width="100%">
+            </div>
+            <div class="about_details">
+                <div>
+                    <b>About Us</b>
+                    <p>Welcome to Natural Farms! I am Raghu, All I wished was for Unaduleterated healthy and nutritious food for my family. But!! I never found them at affordable places in this metropolitan jungles. So, I started one :) I am happy to start this initiative to bring an healthy option to everyone. I hope that you'll join us on this journey towards healthy living and sustainable food practices.Thank you for choosing Natural Farms, Do leave your review after ordering from us.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="contat_column">
+            <ul>
+                <li><b>Customer Care</b></li>
+                <li>FAQ</li>
+                <li>Shipping Policy</li>
+                <li>Refund Policy</li>
+                <li>Cancellation Policy</li>
+                <li>Terms of service</li>
+            </ul>
+        </div>
+        <div class="contat_column">
+            <ul>
+                <li><b>Contact Info</b></li>
+                <li>Natural Farms</li>
+                <li>Email: Naturalfarms@gmail.com</li>
+                <li>Address : BN Reddy Nagar, Hyderabad, Telangana , Pin - 500089</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
